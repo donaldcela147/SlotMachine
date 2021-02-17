@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620E352A25CC56FF00B7169E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620E352925CC56FF00B7169E /* GameViewController.swift */; };
+		620E353525CC6E0300B7169E /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 620E353425CC6E0300B7169E /* sound.mp3 */; };
+		627C1ED125CF43E700D083A9 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 627C1ED025CF43E600D083A9 /* beep.mp3 */; };
+		6293D76925CCA11E007870CD /* collecter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6293D76825CCA11E007870CD /* collecter.mp3 */; };
 		629E3E0325CB734100697D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629E3E0225CB734100697D91 /* AppDelegate.swift */; };
 		629E3E0525CB734100697D91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629E3E0425CB734100697D91 /* SceneDelegate.swift */; };
 		629E3E0725CB734100697D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629E3E0625CB734100697D91 /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		620E352925CC56FF00B7169E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		620E353425CC6E0300B7169E /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		627C1ED025CF43E600D083A9 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		6293D76825CCA11E007870CD /* collecter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = collecter.mp3; sourceTree = "<group>"; };
 		629E3DFF25CB734100697D91 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		629E3E0225CB734100697D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		629E3E0425CB734100697D91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +109,9 @@
 		629E3E0125CB734100697D91 /* SlotMachine */ = {
 			isa = PBXGroup;
 			children = (
+				627C1ED025CF43E600D083A9 /* beep.mp3 */,
+				620E353425CC6E0300B7169E /* sound.mp3 */,
+				6293D76825CCA11E007870CD /* collecter.mp3 */,
 				629E3E0225CB734100697D91 /* AppDelegate.swift */,
 				629E3E0425CB734100697D91 /* SceneDelegate.swift */,
 				629E3E0625CB734100697D91 /* ViewController.swift */,
@@ -109,6 +120,7 @@
 				629E3E1025CB734600697D91 /* LaunchScreen.storyboard */,
 				629E3E1325CB734600697D91 /* Info.plist */,
 				629E3E0B25CB734100697D91 /* SlotMachine.xcdatamodeld */,
+				620E352925CC56FF00B7169E /* GameViewController.swift */,
 			);
 			path = SlotMachine;
 			sourceTree = "<group>";
@@ -234,6 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620E353525CC6E0300B7169E /* sound.mp3 in Resources */,
+				6293D76925CCA11E007870CD /* collecter.mp3 in Resources */,
+				627C1ED125CF43E700D083A9 /* beep.mp3 in Resources */,
 				629E3E1225CB734600697D91 /* LaunchScreen.storyboard in Resources */,
 				629E3E0F25CB734600697D91 /* Assets.xcassets in Resources */,
 				629E3E0A25CB734100697D91 /* Main.storyboard in Resources */,
@@ -261,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620E352A25CC56FF00B7169E /* GameViewController.swift in Sources */,
 				629E3E0725CB734100697D91 /* ViewController.swift in Sources */,
 				629E3E0325CB734100697D91 /* AppDelegate.swift in Sources */,
 				629E3E0525CB734100697D91 /* SceneDelegate.swift in Sources */,
